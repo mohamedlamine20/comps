@@ -1,0 +1,14 @@
+<app-divider>Palceholder Component</app-divider>
+<app-place-holder [header]="true" [line]="5"></app-place-holder>
+<app-divider>Segment Component</app-divider>
+<app-segment>
+    <header>
+     <i class="pdf file outline icon"></i>
+    No documents are listed for this customer .
+    </header>
+    <button class="ui primary button">
+        Add Documents
+        <ng-content></ng-content>
+    </button>    
+</app-segment>
+
